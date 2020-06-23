@@ -1,0 +1,88 @@
+<html>
+	<head>
+		metadata
+		<title>
+			information about the page.
+		</title>
+	</head>
+	<body>
+		<a href="firstpage.html">
+			firstpage
+		</a>
+		&nbsp;
+		<a href="nextpage.html">
+			nextpage
+		</a>
+		&nbsp;
+		<a href="contact.html">
+			contact
+		</a>
+		<hr></hr>
+		<ul>
+			<!-- this is a comment and is totally ignored by the brouser -->
+			<a id="top"></a>
+			<li><a href="#section1">#section1</a></li>
+			<li><a href="#section2">#section2</a></li>
+			<li><a href="#section3">#section3</a></li>
+			<li><a href="#section4">#section4</a></li>
+			<li><a href="#section5">#section5</a></li>
+		</ul>
+		<h1 name="section1">
+			Title : HTML 
+		</h1>
+		<h2>
+			Sub-Title : Basics
+		</h2>
+		<ol>
+			This is a paragraph.
+			<li>href stands for hyprtext reference which refers or links our page to another page by giving the link of page </li>
+			<li>&nbsp used to give space "don't forget to give ; after it". </li>
+			<li>hr tag is used to display the line </li>
+			Thus by using 2 and 3 wr create a " Navigation bar "
+		</ol>
+		<h2 id ="section2"> Using Lists </h2>
+		<ul>
+			<li>ol is ordered list that numbers list one by one
+			<ul>
+				<li>ul is unordered list that gives bulleting to the list</li>
+				<li>li tag is used in ol and ul tags any thing else is not allowed </li>
+			</ul>
+			</li>
+		</ul>
+
+		<dl><h2 id="section3">dl : Description List</h2>
+			<dt>dt : Defines a term or name in description list
+				<dd>
+					dd : Defines a description of a term or name in description list
+				</dd>
+			</dt>
+		</dl>
+		<h2 id ="section4"> Properly Structured Document </h2>
+			<ul>
+				<li>Everything in the document should be written in html tag. </li>
+				<li>Information about the html page is stored in head tag. </li>
+				<li>The body tag contains everything that are containts in the page.</li>
+						<li>Title tag gives name to the tab</li>
+			</ul>
+		<h2 id="section5"> HTML content model </h2>
+			<div> 1. Block Level Element </div>
+			<div> New line by defult </div>
+			<div>Can contain both :</div>
+				<span> block level and </span>
+				<span>inline elements</span>
+			<div>for example...</div>	
+				<span> span tag can be within div tag but div tag vannot be in span tag</span>
+				<div> 
+					<span> div can be written inside div tag 
+						<span> and span tag can be inside span tag </span>
+					</span>
+				</div> 
+		<br>
+			<div> 2. Inline Element </div>
+			<div> Same line by default </div>
+			<div> Contains only inline element</div>
+			<a href="#top">
+				go back to top
+			</a>
+	</body>
+</html>
